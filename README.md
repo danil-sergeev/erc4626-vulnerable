@@ -1,3 +1,6 @@
+# THIS REPOSITORY IS INTENDED FOR VULNERABILITY SHOWCASE, DON'T USE IT IN PRODUCTION
+
+
 ## Foundry
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**

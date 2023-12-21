@@ -161,10 +161,10 @@ contract StargateVault is ERC4626Harvest, WrapperExt {
     }
 
     function _vaultSymbol() internal view returns (string memory vaultSymbol) {
-        vaultSymbol = string.concat("vulnerablestg", asset.symbol());
+        vaultSymbol = string.concat("vulnerablestg");
     }
 
     function _vaultName() internal view returns (string memory vaultName) {
-        vaultName = string.concat("Vulnerable Stargate Vault ", asset.symbol());
+        vaultName = string.concat("Vulnerable Stargate Vault");
     }
 }
